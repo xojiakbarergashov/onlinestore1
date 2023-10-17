@@ -1,0 +1,838 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.add02 a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.add02 a:hover{
+    transition: 0.3s;
+    text-decoration:  underline;
+    text-decoration-color: blue;
+}
+.add02 p{
+    font-weight: 600;
+    margin-left: 20px;
+}
+.add02{
+    margin-left: 400px;
+    cursor: pointer;
+    margin-top: -35px;
+}
+.add01 div{
+    opacity: 0.8;
+    position: absolute;    
+    
+}
+.ads1{
+    margin-top: -200px;
+    margin-left: 310px;
+}
+.add002{
+    margin-top: -223px;
+    position: absolute;
+    width: 0px;
+    height: 208px;
+    border: 2px solid black;
+    margin-left: 299px;
+}
+.tooltip {
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+.ax1 img{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 250px;
+}
+.ax01{
+    margin-top: -390px;
+    margin-left: 310px;
+}
+.ax01 img{
+    height: 125px;
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 250px;
+}
+.ap2{
+   opacity: 0.7;
+}
+.add001{
+    margin-top: -390px;
+    position: absolute;
+    width: 0px;
+    height: 398px;
+    border: 2px solid black;
+    margin-left: 299px;
+}
+
+ .add03 img{
+    
+    transition-delay: -10s;
+    margin-left: 70px;
+    width: 150px;
+ } 
+ .tooltip4 {
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+ .tooltip4 .tooltiptext4 {
+    visibility: hidden;
+    width: 495px;
+    height: 190px;
+    border: 3px solid black;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1;
+    top: 101%;
+    left: 50%;
+    margin-left: -270px;
+    padding: 20PX 30PX 0px 0PX;
+  }
+  
+  .tooltip4 .tooltiptext4::after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+  }
+  
+  .tooltip4:hover .tooltiptext4 {
+    visibility: visible;
+  }
+ .tooltip2 {
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+ .tooltip2 .tooltiptext2 {
+    visibility: hidden;
+    width: 169px;
+    background-color: #fff;
+    height: 260px;
+    border: 3px solid black;
+    position: absolute;
+    z-index: 1;
+    top: 101%;
+    left: 50%;
+    margin-left: -84px;
+    padding: 20PX 30PX 0px 0PX;
+  }
+  
+  .tooltip2 .tooltiptext2::after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+  }
+  
+  .tooltip2:hover .tooltiptext2 {
+    visibility: visible;
+  }
+ .tooltip1 {
+    font-weight: 600;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+}
+ .tooltip1 .tooltiptext1 {
+    visibility: hidden;
+    text-align: center;
+    width: 130px;
+    height: 120px;
+    background-color: #fff;
+
+    border: 3px solid black;
+    position: absolute;
+    z-index: 1;
+    top: 101%;
+    left: 50%;
+    margin-left: -84px;
+    padding: 20PX 30PX 20px 10PX;
+  }
+  
+  .tooltip1 .tooltiptext1::after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+  }
+  
+  .tooltip1:hover .tooltiptext1 {
+    visibility: visible;
+  }
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 600px;
+    height: 400px;
+    background-color: #fff;
+    border: 3px solid black;
+    position: absolute;
+    z-index: 1;
+    top: 101%;
+    left: 50%;
+    margin-left: -300px;
+    padding: 30px 10px;
+  }
+  
+  .tooltip .tooltiptext::after {
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+.add01{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.add03{
+    margin-top: 100px;
+}
+.add02 p{
+    display: inline;
+}
+.add1{
+    background-color: rgb(255, 0, 0);
+    width: 18px;
+    height: 18px;
+    border-radius: 20px 0px 0px 20px;
+}
+.add2{
+    margin-left: 18px;
+    background-color: rgb(255, 103, 103);
+    width: 18px;
+    height: 18px;
+    border-radius: 0px 20px 20px 0px;
+}
+.add3{
+    margin-top: -3px;
+    background-color: rgb(255, 0, 234);
+    width: 18px;
+    height: 18px;
+    border-radius: 20px 0px 0px 20px;
+}
+.add4{
+    margin-top: -3px;
+    margin-left: 18px;
+    background-color: rgb(0, 140, 255);
+    width: 18px;
+    height: 18px;
+    border-radius: 20px;
+}
+.add5{
+    margin-top: -6px;
+    background-color: rgb(0, 255, 21);
+    width: 18px;
+    height: 18px;
+    border-radius: 20px 0px 20px 20px;
+}
+.figma-zjik7 {
+    margin-left: -1300px;
+    
+    display: flex;
+}
+.figma-1028ru8 img{
+    width: 130px;
+
+}
+.figma-1028ru8 {
+    flex-shrink: 0;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 20px;
+    animation: 85s linear 0s infinite normal none running animation-zsk7zs;
+}
+.but1{
+    position: fixed;
+    z-index: 5;
+    background-color: blue;
+    color: #fff;
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+    font-size: 18px;
+    width: 220px;
+    height: 50px;
+    transition: 0.5s;
+}
+.asd1{
+    margin-top: -25px;
+    margin-left: 1100px;
+}
+.but1:hover{
+    margin-top: -4px;
+    transition: 0.5s;
+}
+.but1:active{
+    margin-top: 4px;
+    transition: 0.3s;
+}
+.ap01{
+    margin-top: 40px;
+    margin-left: 60px;
+    font-weight: 600;
+    font-size: 75px;
+}
+.spp1{
+    font-weight: 900;
+    border-radius: 100px;
+    padding: 8px 5px 15px 5px;
+    font-size: 25px;
+    border: 7px solid black;
+    border-color: black;
+    animation-name: example0;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes example0 {
+    0%   {border-color: black;}
+    20%  {border-color: rgb(0, 0, 0);}
+    40%  {border-color: rgb(0, 0, 0);}
+    60%  {border-color: rgb(0, 0, 0);}
+    80%  {border-color: green;}
+    100% {border-color: green;}
+}
+.ass02{
+    width: 100px;
+    height: 100px;
+    color: red;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.ass03{
+    width: 100px;
+    height: 100px;
+    color: red;
+    animation-name: example2;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+.ass04{
+    width: 100px;
+    height: 100px;
+    color: red;
+    animation-name: example1;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {color: black;}
+    20%  {color: black;}
+    40%  {color: black;}
+    60%  {color: black;}
+    80% {color: green;}
+    100% {color: green;}
+}
+@keyframes example2 {
+    0%   {color: rgb(111, 0, 255);}
+    20%   {color: rgb(111, 0, 255);}
+    40%  {color: black;}
+    60%  {color: black;}
+    80%  {color: black;}
+    100% {color: black;}
+}
+@keyframes example1 {
+    0%   {color: black;}
+    20%  {color: rgb(0, 0, 0);}
+    40%  {color: rgb(255, 0, 212);}
+    60%  {color: rgb(255, 0, 212);}
+    80%  {color: black;}
+    100% {color: black;}
+}
+.imm02{
+    display: none;
+    border-radius: 9px ;
+    box-shadow: 1px 1px 30px 1px black;
+}
+.imm01:active {
+    display: none;
+}
+.asdf1:active .imm02{
+    display: inline-block;
+}
+.app001{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.asdf1{
+    position: absolute;
+    margin-left: 33px;
+    margin-top: 30px;
+    transition: margin-top 0.6s;
+}
+.asdf1:hover{
+    transition: margin-top 0.6s;
+    margin-top: 26px;
+}
+.imm01{
+    border-radius: 9px ;
+    box-shadow: 1px 1px 30px 1px black;
+}
+.app1{
+    margin-left: 40px;
+    padding-top: 90px;
+    font-size: 19px;
+    font-weight: 600;
+    display: inline-block;
+}
+.app2{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 77px;
+    font-weight: 700;
+}
+.app3{
+    margin-top: 25px;
+    margin-left: 40px;
+    font-size: 21px;
+    font-weight: 600;
+}
+.asd01{
+    height: 780px;
+    margin-top: 70px;
+    background-color: rgb(244, 255, 92);
+
+}
+.add10 img{
+    width: 849px;
+}
+.add10{
+    margin-top: -150px;
+    margin-left: 500px;
+}
+.ch2{
+    position: absolute;
+    z-index: 3;
+    margin-top: -482px;
+    margin-left: 500px ;
+    width: 0;
+    height: 475px;
+    border: 1px solid #646464;
+
+}
+.ch1{
+    width: 99.8%;
+    position: absolute;
+    z-index: 3;
+    margin-top: -6px;
+    border: 1px solid #646464;
+}
+.but2{
+    position: absolute;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    width: 190px;
+    margin-top: 30px;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.but2:hover{
+    margin-top: 26px;
+    transition: 0.5s;
+}
+.but2:active{
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.asd02{
+    height: 755px;
+    margin-top: 0px;
+    transition: 0.3s;
+    background-color: rgb(244, 255, 92);
+}
+.imm1{
+    border-radius:0 10px 0 0;
+    width: 849px;
+}
+.ch3{
+    position: absolute;
+    z-index: 3;
+    margin-top: -482px;
+    margin-left: 847px ;
+    width: 0;
+    height: 475px;
+    border: 1px solid #646464;
+
+}
+.ch4{
+    width: 99.8%;
+    position: absolute;
+    z-index: 3;
+    margin-top: -6px;
+    border: 1px solid #646464;
+}
+.but3{
+    position: absolute;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    width: 240px;
+    margin-top: 30px;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.but3:hover{
+    margin-top: 26px;
+    transition: 0.5s;
+}
+.but3:active{
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.asd02:hover{
+    transition: 0.3s;
+    background-color: rgba(164, 164, 255, 0.781);
+}
+.asd003{
+    height: 780px;
+    margin-top: 0px;
+    transition: 0.3s;
+
+    background-color: rgb(244, 255, 92);
+}
+.asd003 img{
+    border-radius: 10px 0 0 0;
+}
+.asd003:hover {
+    transition: 0.3s;
+
+    background-color: rgba(16, 169, 87, 0.979);
+}
+.spp01{
+    border-radius: 30%;
+    font-weight: 900;
+    background-color: rgb(197, 170, 80);
+    padding: 2px 4px ;
+}
+.asd04{
+    height: 755px;
+    margin-top: 0px;
+    transition: 0.9s;
+    background-color: rgb(244, 255, 92);
+}
+.but5{
+    position: absolute;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    width: 220px;
+    margin-top: 30px;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.but5:hover{
+    margin-top: 26px;
+    transition: 0.5s;
+}
+.but5:active{
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.but6{
+    position: absolute;
+    font-size: 19px;
+    font-weight: 700;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 45px;
+    width: 290px;
+    margin-top: 30px;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.asd04{
+    height: 755px;
+    margin-top: 0px;
+    transition: 0.3s;
+    background-color: rgb(244, 255, 92);
+}
+.asd04:hover{
+    transition: 0.3s;
+    background-color: rgba(226, 226, 226, 0.981);
+}
+.but6:hover{
+    margin-top: 26px;
+    transition: 0.5s;
+}
+.but6:active{
+    margin-top: 30px;
+    transition: 0.3s;
+}
+.asd005{
+    height: 782px;
+    margin-top: 0px;
+    transition: 0.3s;
+
+    background-color: rgb(244, 255, 92);
+}
+.asd005 img{
+    border-radius: 10px 0 0 0;
+}
+.asd005:hover {
+    transition: 0.3s;
+
+    background-color: rgba(142, 207, 236, 0.979);
+}
+.spp02{
+    color: rgb(226, 226, 226);
+    animation-name: example001;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+@keyframes example001 {
+    0%           {display: inline-block;}
+    14.2857143%  {display:none ;}
+    28.5714286%  {display: none;}
+    42.8571429%  {display: none;}
+    57.1428572%  {display: none;}
+    71.4285715%  {display: none ;}
+    85.7142858%  {display: none;}
+    100%         {display: none ;}
+}
+.spp03{
+    color: green;
+    animation-name: example002;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+@keyframes example002 {
+    0%           {display: none;}
+    14.2857143%  {display:none ;}
+    28.5714286%  {display: inline-block;}
+    42.8571429%  {display: none;}
+    57.1428572%  {display: none;}
+    71.4285715%  {display: none ;}
+    85.7142858%  {display: none;}
+    100%         {display: none ;}
+}
+.spp04{
+    color: rgb(228, 228, 228);
+    animation-name: example003;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+@keyframes example003 {
+    0%           {display: none;}
+    14.2857143%  {display:none ;}
+    28.5714286%  {display: none;}
+    42.8571429%  {display: none;}
+    57.1428572%  {display: inline-block;}
+    71.4285715%  {display: none ;}
+    85.7142858%  {display: none;}
+    100%         {display: none ;}
+}
+.spp05{
+    color: rgb(25, 0, 255);
+    animation-name: example004;
+    animation-duration: 13s;
+    animation-iteration-count: infinite;
+}
+@keyframes example004 {
+    0%           {display: none;}
+    14.2857143%  {display:none ;}
+    28.5714286%  {display: none;}
+    42.8571429%  {display: none;}
+    57.1428572%  {display: none;}
+    71.4285715%  {display: none ;}
+    85.7142858%  {display: inline-block;}
+    100%         {display: none ;}
+}
+.but06{
+    position: absolute;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height:50px;
+    width: 290px;
+    margin-top: 30px;
+    margin-left: 40px;
+    transition: 0.5s;
+}
+.but06:hover{
+    margin-top: -160px;
+    transition: 0.5s;
+}
+.but06:active{
+    margin-top: -156px;
+    transition: 0.3s;
+}
+.ahh21{
+    padding-top: 130px;
+    margin-left: 100px;
+    color: #fff;
+    font-size: 80px;
+}
+.add21{
+    height: 1300px;
+    background-color: black;
+}
+.but6{
+    position: absolute;
+    font-size: 45px;
+    font-weight: 700;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    height: 120px;
+    width: 550px;
+    margin-top: -156px;
+    margin-left: 700px;
+    transition: 0.5s;
+}
+.but6:hover{
+    margin-top: -160px;
+    transition: 0.5s;
+}
+.but6:active{
+    margin-top: -156px;
+    transition: 0.3s;
+}
+.ahh01{
+    font-size: 24px;
+    font-family:cursive;
+    text-decoration: none;
+    color: #fff;
+}
+.ald1{
+    margin-left: 150px;
+    margin-top: 170px;
+}
+.ald1 img{
+    
+    position: absolute;
+    width: 25px;
+    border-radius: 50px;
+}
+.ald1 span{
+    
+    margin-left: 28px;
+    justify-content:center;
+    position: relative;
+    color: #fff;
+}
+.ald2{
+    margin-left: 370px;
+    margin-top: -200px;
+}
+.ald2 span{
+    color: #fff;
+    font-weight: 700;
+}
+.ald2 a{
+    text-decoration: none;
+    color: #fff;
+}
+.ald2 a:hover{
+    text-decoration: underline;
+}
+.ald3{
+    margin-left:620px ;
+    margin-top: -567px;
+}
+.ald3 span{
+    color: #fff;
+    font-weight: 700;
+}
+.ald3 a{
+    text-decoration: none;
+    color: #fff;
+}
+.ald3 a:hover{
+    text-decoration: underline;
+}
+.ald4{
+    margin-left: 890px ;
+    margin-top: -673px;
+}
+.ald4 span{
+    color: #fff;
+    font-weight: 700;
+}
+.ald4 a{
+    text-decoration: none;
+    color: #fff;
+}
+.ald4 a:hover{
+    text-decoration: underline;
+}
+.ald5{
+    margin-left: 1100px ;
+    margin-top: -650px;
+}
+.ald5 span{
+    color: #fff;
+    font-weight: 700;
+}
+.ald5 a{
+    text-decoration: none;
+    color: #fff;
+}
+.ald5 a:hover{
+    text-decoration: underline;
+}
+.ahh221{
+    margin-top: 450px;
+    text-align: center;
+}
+.ahh221 img{
+    width: 25px;
+    border-radius: 200px;
+    position: relative;
+    
+}
+.ahh221 a{
+    color:#fff;
+    margin-left: 5px;
+    position: absolute;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+.ahh221 a:hover{
+    text-decoration:underline;
+}
